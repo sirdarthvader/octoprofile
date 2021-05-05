@@ -68,7 +68,6 @@ const User = props => {
           setError({ active: true, type: 403 });
         }
       });
-
     getUserData();
     getLangData();
     getRepoData();
